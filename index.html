@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover stylish Nigerian fashion, cultural clothing and modern outfits from FMK Clothing Abuja.">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta property="og:title" content="FMK Clothing Abuja | Nigerian Fashion &amp; Style">
+  <meta property="og:description" content="Fashion inspired by culture. Designed for confidence. Discover FMK Clothing Abuja.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&amp;fit=crop&amp;w=1600&amp;q=85">
+  <title>FMK Clothing Abuja | Nigerian Fashion &amp; Style</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="FMK Clothing Abuja home">
+        <span class="brand-mark">FMK</span>
+        <span class="brand-caption">CLOTHING ABUJA</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="primary-navigation">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#collections">Collections</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <button class="cart-trigger" type="button" aria-label="Open shopping bag">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 13H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+        <span class="cart-label">Bag</span>
+        <span class="cart-count" aria-live="polite">0</span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-image"></div>
+      <div class="hero-content container">
+        <span class="eyebrow hero-eyebrow">ABUJA · NIGERIA</span>
+        <p class="hero-kicker">WELCOME TO FMK CLOTHING ABUJA</p>
+        <h1 id="hero-title">Style That<br><em>Speaks For You.</em></h1>
+        <p class="hero-copy">Discover beautifully crafted clothing that combines Nigerian culture, modern fashion and confidence.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#shop">Shop Collection <span aria-hidden="true">↗</span></a>
+          <a class="text-link light-link" href="#contact">Contact us <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-index"><span>01</span><span class="index-line"></span><span>03</span></div>
+      </div>
+      <a class="scroll-cue" href="#features"><span>SCROLL TO DISCOVER</span><i aria-hidden="true">↓</i></a>
+    </section>
+
+    <!-- Brand features -->
+    <section class="features section-pad" id="features" aria-label="Shopping benefits">
+      <div class="container feature-grid">
+        <article class="feature-item reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M16 4 19 9l6 1-4 5 1 6-6-3-6 3 1-6-4-5 6-1 3-5Z"/><path d="M8 26h16"/></svg>
+          </span>
+          <div><h2>Quality Fashion</h2><p>Carefully selected clothing and materials.</p></div>
+        </article>
+        <article class="feature-item reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M3 9h17v15H3zM20 14h5l4 5v5h-9"/><circle cx="9" cy="25" r="3"/><circle cx="24" cy="25" r="3"/><path d="M7 14h8M7 18h6"/></svg>
+          </span>
+          <div><h2>Delivery Available</h2><p>Get your order delivered to your location.</p></div>
+        </article>
+        <article class="feature-item reveal">
+          <span class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32"><path d="M27 15a11 11 0 0 1-16 10l-7 2 2-7A11 11 0 1 1 27 15Z"/><path d="M11 12c1 4 4 7 8 8l2-2-3-2-2 1a8 8 0 0 1-3-3l1-2-2-3-1 1Z"/></svg>
+          </span>
+          <div><h2>Easy Ordering</h2><p>Order quickly through WhatsApp.</p></div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Shop -->
+    <section class="shop section-pad" id="shop" aria-labelledby="shop-title">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><span class="eyebrow">THE FMK EDIT</span><h2 id="shop-title">Shop Our Styles</h2></div>
+          <p>Explore our collection of stylish clothing designed for everyday confidence.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter products by category">
+          <button class="filter-button is-active" type="button" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter-button" type="button" data-filter="men" aria-pressed="false">Men</button>
+          <button class="filter-button" type="button" data-filter="women" aria-pressed="false">Women</button>
+          <button class="filter-button" type="button" data-filter="cultural" aria-pressed="false">Cultural</button>
+          <button class="filter-button" type="button" data-filter="accessories" aria-pressed="false">Accessories</button>
+        </div>
+        <div class="product-grid" id="product-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- Editorial collection -->
+    <section class="collection" id="collections" aria-labelledby="collection-title">
+      <div class="collection-copy reveal">
+        <span class="eyebrow">ROOTED IN HERITAGE</span>
+        <h2 id="collection-title">Nigerian Culture.<br><em>Modern Style.</em></h2>
+        <p>At FMK Clothing Abuja, we believe fashion should celebrate who you are. Our collections bring together traditional Nigerian influences and contemporary fashion.</p>
+        <a class="button button-dark" href="#shop">Explore Collection <span aria-hidden="true">↗</span></a>
+        <span class="collection-note">MADE TO BE YOURS · FMK ABUJA</span>
+      </div>
+      <div class="collection-image" role="img" aria-label="Editorial portrait showcasing contemporary African-inspired fashion"></div>
+    </section>
+
+    <!-- About -->
+    <section class="about section-pad" id="about" aria-labelledby="about-title">
+      <div class="container about-layout">
+        <div class="about-image-wrap reveal">
+          <img class="about-image" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&amp;fit=crop&amp;w=1000&amp;q=85" alt="Confident fashion portrait in an elegant contemporary outfit" loading="lazy">
+          <span class="image-caption">A STYLE THAT IS UNIQUELY YOURS</span>
+        </div>
+        <div class="about-copy reveal">
+          <span class="eyebrow">A LITTLE ABOUT US</span>
+          <h2 id="about-title">Fashion Made<br><em>With Purpose</em></h2>
+          <p>FMK Clothing Abuja is a fashion brand focused on creating stylish clothing for people who want to look confident while expressing their personality.</p>
+          <p>From modern outfits to Nigerian-inspired cultural designs, every piece is selected with quality, comfort and style in mind.</p>
+          <div class="stats">
+            <div><strong>100<span>+</span></strong><span>Styles</span></div>
+            <div><strong>500<span>+</span></strong><span>Customers</span></div>
+            <div><strong class="stat-word">Abuja</strong><span>Based</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action -->
+    <section class="cta section-pad">
+      <div class="cta-inner container reveal">
+        <span class="eyebrow">YOUR NEXT LOOK STARTS HERE</span>
+        <h2>Find Your Next<br><em>Favourite Outfit.</em></h2>
+        <p>Browse our collection or contact FMK Clothing Abuja to place your order.</p>
+        <a class="button button-light" href="#" data-whatsapp-link>Order on WhatsApp <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="cta-decoration" aria-hidden="true">FMK</span>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section-pad" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="section-heading contact-heading reveal">
+          <div><span class="eyebrow">WE’RE HERE TO HELP</span><h2 id="contact-title">Let’s Talk Style.</h2></div>
+          <p>Questions about a piece or ready to order? We’d love to hear from you.</p>
+        </div>
+        <div class="contact-grid">
+          <article class="contact-card reveal"><span class="contact-number">01 / FIND US</span><h3>Location</h3><p>Abuja, Nigeria</p></article>
+          <article class="contact-card reveal"><span class="contact-number">02 / CALL US</span><h3>Phone</h3><p>+234 XXX XXX XXXX</p></article>
+          <article class="contact-card reveal"><span class="contact-number">03 / MESSAGE US</span><h3>WhatsApp</h3><p>Chat with us to order</p><a class="text-link" href="#" data-whatsapp-link>Start chat <span aria-hidden="true">↗</span></a></article>
+        </div>
+        <div class="social-row">
+          <span>FOLLOW OUR JOURNEY</span>
+          <div>
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
+            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook ↗</a>
+            <a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#home">
+          <span class="brand-mark">FMK</span><span class="brand-caption">CLOTHING ABUJA</span>
+        </a>
+        <p>Fashion inspired by culture.<br>Designed for confidence.</p>
+      </div>
+      <div class="footer-column"><span class="footer-label">EXPLORE</span><a href="#home">Home</a><a href="#shop">Shop</a><a href="#collections">Collections</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+      <div class="footer-column"><span class="footer-label">FOLLOW ALONG</span><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">Facebook ↗</a><a href="https://www.tiktok.com/" target="_blank" rel="noopener noreferrer">TikTok ↗</a></div>
+      <a class="back-top" href="#top" aria-label="Back to top">↑</a>
+    </div>
+    <div class="container footer-bottom"><span>© 2026 FMK Clothing Abuja. All Rights Reserved.</span><span>ABUJA, NIGERIA</span></div>
+  </footer>
+
+  <!-- Shopping bag drawer -->
+  <div class="drawer-backdrop" hidden></div>
+  <aside class="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+    <div class="cart-header"><div><span class="eyebrow">YOUR SELECTION</span><h2 id="cart-title">Shopping Bag <span class="drawer-count">(0)</span></h2></div><button class="cart-close" type="button" aria-label="Close shopping bag">×</button></div>
+    <div class="cart-items" aria-live="polite"></div>
+    <div class="cart-empty"><span class="empty-bag-icon" aria-hidden="true">✳</span><p>Your bag is waiting for something lovely.</p><a class="text-link" href="#shop" data-close-cart>Explore the collection ↗</a></div>
+    <div class="cart-footer">
+      <div class="cart-total"><span>Total</span><strong>₦0</strong></div>
+      <p>Delivery details can be confirmed with us on WhatsApp.</p>
+      <button class="button button-dark checkout-button" type="button">Order on WhatsApp <span aria-hidden="true">↗</span></button>
+    </div>
+  </aside>
+</body>
+</html>
